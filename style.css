@@ -39,7 +39,7 @@ body {
   padding: 10px;
 }
 .paper.image p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 img {
@@ -47,6 +47,12 @@ img {
   width: 100%;
   user-select: none;
 }
+
+.paper.pmk img{
+  padding: 0 60px;
+  width: 30%;
+}
+
 
 .paper.heart::after {
   content: "";
@@ -64,7 +70,7 @@ img {
 
 p {
   font-family: 'Zeyada';
-  font-size: 50px;
+  font-size: 35px;
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
